@@ -1,0 +1,39 @@
+.header {
+    background: #ffffff;
+    width: 101%;
+    height: 100px;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    margin: -10px;
+    margin-bottom: 25px;
+    border: #cccccc solid 1px;
+}
+
+#name {
+    background: #4aaaa5;
+    float: left;
+    margin-left: 250px;
+    color: #ffffff;
+    height: 100px;
+    width: 15%;
+    font-size: 200%;
+}
+
+.navbar {
+    float: right;
+    margin-top: 25px;
+    margin-right: 220px;
+    padding: 10px;
+}
+
+#about, #portfolio, #contact {
+    margin-top: 20px;
+    padding-right: 10px;
+    margin-right: 10px;
+    color: #777777;
+}
+
+.navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+}

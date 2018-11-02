@@ -1,0 +1,25 @@
+.material {
+    width: 960px;
+    background: #ffffff;
+    border: #dddddd solid 1px;
+    margin-left: 240px;
+    padding: 30px;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    color: #777777;
+    line-height: 1.5;
+}
+
+#materialheader {
+    color: #4aaaa5;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    margin-bottom: 20px;
+    border-bottom: #cccccc solid 3px;
+}
+
+#Profile {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 10px;
+}

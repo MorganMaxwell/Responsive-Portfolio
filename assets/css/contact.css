@@ -1,0 +1,48 @@
+.material {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: stretch;
+    margin: auto;
+    width: 960px;
+    background: #ffffff;
+    border: #dddddd solid 1px;
+    padding: 30px;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    color: #777777;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.materialheader {
+    clear: both;
+    color: #4aaaa5;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    margin-bottom: 20px;
+    border-bottom: #cccccc solid 3px;
+    font-size: 30px;
+    width: 100%
+}
+
+h3 {
+    color: #777777;
+}
+
+#nameinput, #emailinput, #messageinput {
+    
+}
+
+#messageinput {
+    height: 200px;
+    width: 60%;
+}
+
+#submit {
+    background: #4aaaa5;
+    color: #ffffff;
+    height: 40px;
+    width: 60px;
+    margin-top: 5px;
+}
