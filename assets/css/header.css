@@ -37,3 +37,41 @@
     clear: both;
     display: table;
 }
+
+@media (max-width: 980px) {
+    #name {
+        margin-left: 20px;
+        width: 20%;
+    }
+    .navbar {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #name {
+        margin-left: 20px;
+        width: 20%;
+    }
+    .navbar {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 640px) {
+    .header {
+        height: 130px;
+        width: 640px;
+    }
+    #name {
+        width: 640px;
+        text-align: center;
+        margin-left: 0;
+        height: 80px;
+    }
+    .navbar {
+        margin-right: 188px;
+        margin-top: 0px;
+    }
+}
+
