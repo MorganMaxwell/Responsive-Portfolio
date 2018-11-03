@@ -3,6 +3,7 @@
     background: #ffffff;
     border: #dddddd solid 1px;
     margin-left: 240px;
+    margin-bottom: 50px;
     padding: 30px;
     font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     color: #777777;
@@ -22,4 +23,29 @@
     float: left;
     margin-right: 5px;
     margin-left: 10px;
+}
+
+@media (max-width: 980px) {
+    .material {
+        width: 500px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .material {
+        /* It lines up really well hahahahaha */
+        width: 666px;
+    }
+}
+
+@media (max-width: 640px) {
+    .material {
+        width: 500px;
+        margin-left: 10px;
+    }
+    #Profile {
+        width: 470px;
+        height: 470px;
+    }
 }
